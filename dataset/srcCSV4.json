@@ -1,0 +1,71 @@
+{
+	"name": "srcCSV4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "data_1.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "YearWeekISO",
+				"type": "String"
+			},
+			{
+				"name": "FirstDose",
+				"type": "String"
+			},
+			{
+				"name": "FirstDoseRefused",
+				"type": "String"
+			},
+			{
+				"name": "SecondDose",
+				"type": "String"
+			},
+			{
+				"name": "UnknownDose",
+				"type": "String"
+			},
+			{
+				"name": "NumberDosesReceived",
+				"type": "String"
+			},
+			{
+				"name": "Region",
+				"type": "String"
+			},
+			{
+				"name": "Population",
+				"type": "String"
+			},
+			{
+				"name": "ReportingCountry",
+				"type": "String"
+			},
+			{
+				"name": "TargetGroup",
+				"type": "String"
+			},
+			{
+				"name": "Vaccine",
+				"type": "String"
+			},
+			{
+				"name": "Denominator",
+				"type": "String"
+			}
+		]
+	}
+}

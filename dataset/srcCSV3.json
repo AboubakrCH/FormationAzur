@@ -1,0 +1,71 @@
+{
+	"name": "srcCSV3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "data.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "dateRep",
+				"type": "String"
+			},
+			{
+				"name": "day",
+				"type": "String"
+			},
+			{
+				"name": "month",
+				"type": "String"
+			},
+			{
+				"name": "year",
+				"type": "String"
+			},
+			{
+				"name": "cases",
+				"type": "String"
+			},
+			{
+				"name": "deaths",
+				"type": "String"
+			},
+			{
+				"name": "countriesAndTerritories",
+				"type": "String"
+			},
+			{
+				"name": "geoId",
+				"type": "String"
+			},
+			{
+				"name": "countryterritoryCode",
+				"type": "String"
+			},
+			{
+				"name": "popData2019",
+				"type": "String"
+			},
+			{
+				"name": "continentExp",
+				"type": "String"
+			},
+			{
+				"name": "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000",
+				"type": "String"
+			}
+		]
+	}
+}
