@@ -1116,7 +1116,7 @@
 				"typeProperties": {
 					"recurrence": {
 						"frequency": "Minute",
-						"interval": 5,
+						"interval": 2,
 						"startTime": "2021-03-22T15:55:00",
 						"endTime": "2021-03-22T16:46:00",
 						"timeZone": "Romance Standard Time"
