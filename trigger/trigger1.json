@@ -1,0 +1,18 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2021-03-22T14:46:00",
+				"endTime": "2021-03-22T16:46:00",
+				"timeZone": "Romance Standard Time"
+			}
+		}
+	}
+}
