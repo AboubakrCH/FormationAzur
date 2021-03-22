@@ -1,5 +1,13 @@
 {
 	"name": "formationabou",
+	"properties": {
+		"globalParameters": {
+			"directory": {
+				"type": "string",
+				"value": "C:\\Users\\achoutta\\Desktop\\MS_Azure_Formation"
+			}
+		}
+	},
 	"location": "francecentral",
 	"identity": {
 		"type": "SystemAssigned",
