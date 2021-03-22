@@ -1,0 +1,9 @@
+{
+	"name": "formationabou",
+	"location": "francecentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2cb53ff5-7eb5-4e57-9ea4-0ee72dab0b08",
+		"tenantId": "544fe47f-5772-488f-81a9-fa9de607ecfa"
+	}
+}
